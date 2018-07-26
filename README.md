@@ -1,2 +1,0 @@
-# simplasite
-learning simla
