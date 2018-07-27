@@ -89,27 +89,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <!-- Load your application shell -->
     <script type="module" src="src/my-app.js"></script>
 
-    <!-- Include Simpla, Netlify auth adapter, and cross-browser polyfill-->
-    <script src="https://unpkg.com/simpla@^3.0.0"></script>
-    <script src="https://unpkg.com/simpla@^3.0.0/adapters/netlify.js"></script>
-    <script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
-
-    <!-- Init Simpla -->
-    <script>
-        Simpla.init({
-
-            // The Github repo you want Simpla to use
-            repo: 'username/repo',
-
-            // Netlify auth adapter, initialize with your Netlify site name
-            auth: new SimplaNetlify({ site: 'mysite' }),
-
-            // Public content source (optional)
-            // Defaults to fetching directly from Github
-            source: 'window.location.origin'
-
-        });
-    </script>
 
     <!-- Add any global styles for body, document, etc. -->
     <style>
