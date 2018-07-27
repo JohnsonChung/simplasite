@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> develop
 # -----------------------------------------------------------------
 # .gitignore
 # Bare Minimum Git
@@ -42,6 +47,10 @@
 #
 # -----------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 80a0c90... Revert "commit"
+>>>>>>> develop
 # ignore all files starting with . or ~
 .*
 ~*
@@ -57,7 +66,14 @@ node_modules/
 
 # ignore jekyll build directory
 /_site
+<<<<<<< HEAD
 /build
+=======
+<<<<<<< HEAD
+=======
+/build
+>>>>>>> parent of 80a0c90... Revert "commit"
+>>>>>>> develop
 
 # ignore OS generated files
 ehthumbs.db
