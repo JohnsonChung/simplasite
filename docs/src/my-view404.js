@@ -1,4 +1,4 @@
-define(["./my-app.js"],function(_myApp){"use strict";class MyView404 extends _myApp.PolymerElement{static get template(){return _myApp.html$1`
+import{PolymerElement,html$1 as html}from"./my-app.js";class MyView404 extends PolymerElement{static get template(){return html`
       <style>
         :host {
           display: block;
@@ -8,4 +8,4 @@ define(["./my-app.js"],function(_myApp){"use strict";class MyView404 extends _my
       </style>
 
       Oops you hit a 404. <a href="[[rootPath]]">Head back to home.</a>
-    `}}window.customElements.define("my-view404",MyView404)});
+    `}}window.customElements.define("my-view404",MyView404);
